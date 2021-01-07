@@ -1,0 +1,156 @@
+/*
+Theme Name: Naggi Goishi
+Author: Naggi Goishi
+Version: 1.0
+*/
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("assets/fonts/Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lemonada";
+  src: url("assets/fonts/Lemonada-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Honya";
+  src: url("assets/fonts/HonyaJi-Re.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+}
+
+.top {
+  height: 730px;
+  position: relative;
+}
+
+h1.title {
+  font-family: "Comfortaa";
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    margin: auto;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.blog {
+  font-size: 15px;
+  font-family: "Honya";
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.blog img {
+  width: 100%;
+}
+
+.blog p {
+  color: #000;
+}
+
+.blog a {
+  color: #000;
+  text-decoration: none;
+}
+
+.blog .sub-info {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.blog .sub-info p {
+  width: fit-content;
+  font-size: 12px;
+}
+
+.blog-title {
+  font-family: "Lemonada";
+  margin: auto;
+  width: fit-content;
+  text-decoration: underline;
+}
+
+article {
+  width: 70%;
+  padding: 0 10% 10% 10%;
+  margin: 30px auto;
+  color: #707070;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+article h1.article-title {
+  font-family: toppan-bunkyu-midashi-go-std;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+article h1 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+article p {
+  margin: 40px 0px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+article pre {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.thumbnail {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.thumbnail img {
+  width: 600px;
+}
+
+@media only screen and (max-width: 820px) {
+  .blog {
+    width: 500px;
+  }
+
+  .thumbnail {
+    padding: 40px 0;
+  }
+
+  .thumbnail img {
+    width: 100%;
+  }
+
+  article h1.article-title {
+    font-size: 20px;
+  }
+  
+  article h1 {
+    font-size: 20px;
+  }
+
+}
+
